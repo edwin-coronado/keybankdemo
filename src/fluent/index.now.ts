@@ -5,6 +5,7 @@ export const x_1234_keydemo_category = Table({
     name: 'x_1234_keydemo_category',
     schema: {
         name: StringColumn({ label: 'Name', mandatory: true, maxLength: 40 }),
+        description: StringColumn({})
     },
     label: 'Keydemo Category',
 })
